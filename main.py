@@ -6,7 +6,7 @@ import os
 from flask import Flask, request
 from telegram.ext import Dispatcher, MessageHandler, Filters
 
-telegram_bot_token = str(os.getenv("TELEGRAM_BOT_TOKEN"))
+telegram_bot_token = str(os.getenv("6556995841:AAGyBXCCbremRqXdHHuARfR3yaabQH78v-MN"))
 
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
